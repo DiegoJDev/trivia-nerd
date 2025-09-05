@@ -1,0 +1,167 @@
+[
+  {
+    "question": "¿Qué es React y cuáles son sus principales ventajas frente a otros frameworks?",
+    "options": [
+      "Una base de datos que permite almacenar interfaces de usuario",
+      "Un framework completo que incluye backend y frontend",
+      "Una librería de JavaScript para construir interfaces de usuario con Virtual DOM",
+      "Un lenguaje de programación específico para desarrollo web"
+    ],
+    "correctAnswer": 2,
+    "category": "Fundamentos de React"
+  },
+  {
+    "question": "Explica la diferencia entre un componente de clase y un componente funcional",
+    "options": [
+      "Los componentes de clase son más rápidos que los funcionales",
+      "Los componentes funcionales no pueden tener estado",
+      "Los componentes de clase usan this.state y ciclo de vida, los funcionales usan hooks",
+      "No hay diferencia, son sinónimos"
+    ],
+    "correctAnswer": 2,
+    "category": "Fundamentos de React"
+  },
+  {
+    "question": "¿Qué son las props y qué diferencia hay con el state?",
+    "options": [
+      "Props y state son lo mismo, solo cambia el nombre",
+      "Props son datos inmutables del padre, state son datos internos que cambian",
+      "Props se usan en componentes de clase, state en funcionales",
+      "Props son más rápidas que el state"
+    ],
+    "correctAnswer": 1,
+    "category": "Fundamentos de React"
+  },
+  {
+    "question": "¿Qué es el Virtual DOM y cómo funciona?",
+    "options": [
+      "Una copia exacta del DOM que se mantiene sincronizada",
+      "Una representación ligera del DOM que permite actualizaciones eficientes",
+      "Un DOM que solo existe en memoria virtual",
+      "Una versión simplificada del HTML"
+    ],
+    "correctAnswer": 1,
+    "category": "Fundamentos de React"
+  },
+  {
+    "question": "¿Qué es JSX y por qué se utiliza en React?",
+    "options": [
+      "Un nuevo lenguaje de programación creado por Facebook",
+      "Una forma de escribir CSS dentro de JavaScript",
+      "Sintaxis similar a HTML que se transforma a JavaScript para escribir interfaces",
+      "Una biblioteca externa que debe instalarse por separado"
+    ],
+    "correctAnswer": 2,
+    "category": "Fundamentos de React"
+  },
+  {
+    "question": "¿Cómo manejas el estado en un componente de clase vs un componente funcional?",
+    "options": [
+      "Ambos usan exactamente los mismos métodos",
+      "Clase: setState() y this.state, Funcional: useState hook",
+      "Solo los componentes de clase pueden tener estado",
+      "Los componentes funcionales usan this.state también"
+    ],
+    "correctAnswer": 1,
+    "category": "Estado y Ciclo de Vida"
+  },
+  {
+    "question": "Explica el ciclo de vida de un componente de clase (mounting, updating, unmounting)",
+    "options": [
+      "Solo existe la fase de mounting",
+      "Mounting: constructor y render, Updating: componentDidUpdate, Unmounting: componentWillUnmount",
+      "Todas las fases usan los mismos métodos",
+      "El ciclo de vida no existe en React"
+    ],
+    "correctAnswer": 1,
+    "category": "Estado y Ciclo de Vida"
+  },
+  {
+    "question": "¿Qué es useState y cómo se usa?",
+    "options": [
+      "Un método de los componentes de clase",
+      "Hook para manejar estado en componentes funcionales",
+      "Una función global de React",
+      "Una librería externa para manejo de estado"
+    ],
+    "correctAnswer": 1,
+    "category": "Estado y Ciclo de Vida"
+  },
+  {
+    "question": "¿Qué es useEffect y cuáles son sus casos de uso más comunes?",
+    "options": [
+      "Solo se usa para hacer fetch de datos",
+      "Maneja efectos secundarios: fetch, suscripciones, timers",
+      "Es un reemplazo directo de useState",
+      "Solo funciona en componentes de clase"
+    ],
+    "correctAnswer": 1,
+    "category": "Estado y Ciclo de Vida"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre componentDidMount, componentDidUpdate y componentWillUnmount?",
+    "options": [
+      "Son métodos idénticos con nombres diferentes",
+      "DidMount: tras montar, DidUpdate: tras actualizar, WillUnmount: antes de desmontar",
+      "Solo componentDidMount es importante",
+      "Solo existen en componentes funcionales"
+    ],
+    "correctAnswer": 1,
+    "category": "Estado y Ciclo de Vida"
+  },
+  {
+    "question": "¿Qué es el renderizado condicional y cómo se implementa?",
+    "options": [
+      "Una técnica solo para componentes de clase",
+      "Mostrar diferente UI según condiciones usando if, ternarios o && en JSX",
+      "Una característica que requiere librerías externas",
+      "Solo se puede hacer con CSS"
+    ],
+    "correctAnswer": 1,
+    "category": "Renderizado y Performance"
+  },
+  {
+    "question": "¿Qué son las keys en listas de React y por qué son importantes?",
+    "options": [
+      "Son opcionales y no afectan el rendimiento",
+      "Solo se usan para estilización",
+      "Identificadores únicos que ayudan al Virtual DOM a detectar cambios",
+      "Son necesarias solo en componentes de clase"
+    ],
+    "correctAnswer": 2,
+    "category": "Renderizado y Performance"
+  },
+  {
+    "question": "¿Cómo optimizarías la performance de una aplicación en React?",
+    "options": [
+      "Solo usando componentes de clase",
+      "React.memo, useCallback, useMemo, lazy loading, code splitting",
+      "Evitando el uso de hooks",
+      "Usando solo CSS para optimización"
+    ],
+    "correctAnswer": 1,
+    "category": "Renderizado y Performance"
+  },
+  {
+    "question": "¿Qué es React.memo y cuándo lo usarías?",
+    "options": [
+      "Un hook para manejar memoria",
+      "HOC que memoriza componentes para evitar renders innecesarios",
+      "Una función para limpiar memoria",
+      "Solo funciona con componentes de clase"
+    ],
+    "correctAnswer": 1,
+    "category": "Renderizado y Performance"
+  },
+  {
+    "question": "¿Qué diferencia hay entre CSR, SSR e ISR/SSG?",
+    "options": [
+      "Son términos sinónimos",
+      "Solo CSR es real, los otros son teóricos",
+      "CSR: cliente, SSR: servidor, ISR/SSG: generación estática/incremental",
+      "Solo se aplican a frameworks que no sean React"
+    ],
+    "correctAnswer": 2,
+    "category": "Renderizado y Performance"
+  }
+]
