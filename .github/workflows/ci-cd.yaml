@@ -39,9 +39,9 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # 7. Tests (commented for later)
-      # - name: Run tests
-      #   run: npm test
+      # 7. Tests
+      - name: Run tests
+        run: npm test
 
   cd:
     name: Continuous Deployment
